@@ -11,13 +11,25 @@ class StoreLeadRequest extends FormRequest
         return true;
     }
 
+    protected function prepareForValidation(): void
+    {
+        $this->merge([
+            'source' => $this->input('source', 'homepage'),
+
+            'contact_method' => $this->input(
+                'contact_method',
+                'phone'
+            ),
+        ]);
+    }
+
     public function rules(): array
     {
         return [
             'full_name' => [
                 'required',
                 'string',
-                'max:150',
+                'max:255',
             ],
 
             'phone' => [
@@ -29,13 +41,13 @@ class StoreLeadRequest extends FormRequest
             'email' => [
                 'required',
                 'email',
-                'max:190',
+                'max:255',
             ],
 
             'interest' => [
                 'required',
                 'string',
-                'max:100',
+                'max:255',
             ],
 
             'budget' => [
@@ -55,14 +67,16 @@ class StoreLeadRequest extends FormRequest
                 'max:3000',
             ],
 
-            'company_website' => [
-                'nullable',
-                'max:0',
-            ],
             'source' => [
-                'nullable',
+                'required',
                 'in:homepage,campaign-short',
             ],
+
+//            'company_website' => [
+//                'nullable',
+//                'string',
+//                'max:0',
+//            ],
         ];
     }
 
@@ -73,9 +87,8 @@ class StoreLeadRequest extends FormRequest
             'phone.required' => 'Please enter your phone number.',
             'email.required' => 'Please enter your email address.',
             'email.email' => 'Please enter a valid email address.',
-            'interest.required' => 'Please select a collection.',
-            'contact_method.in' => 'Please select a valid contact method.',
-            'company_website.max' => 'The request could not be processed.',
+            'interest.required' => 'Please choose a collection.',
+            'company_website.max' => 'The request could not be submitted.',
         ];
     }
 }

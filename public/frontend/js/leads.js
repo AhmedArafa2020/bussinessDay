@@ -114,11 +114,52 @@ document.addEventListener('DOMContentLoaded', () => {
                     Accept: 'application/json',
                     'X-Requested-With': 'XMLHttpRequest',
                 },
+                redirect: 'manual',
             });
 
+            if (
+                response.status === 301 ||
+                response.status === 302 ||
+                response.status === 303
+            ) {
+                throw new Error(
+                    'Laravel redirected the request before saving.'
+                );
+            }
+
             const data = await response.json().catch(() => ({
-                message: 'An unexpected error occurred.',
+                message: 'Laravel returned a non-JSON response.',
             }));
+
+            if (response.status === 422) {
+                Object.entries(data.errors || {}).forEach(
+                    ([fieldName, messages]) => {
+                        showFieldError(fieldName, messages);
+                    }
+                );
+
+                throw new Error(
+                    data.message || 'Validation failed.'
+                );
+            }
+
+            if (!response.ok || data.success !== true) {
+                throw new Error(
+                    data.message || 'The lead was not saved.'
+                );
+            }
+
+            form.reset();
+
+            const redirectUrl =
+                form.dataset.redirect ||
+                form.dataset.successUrl;
+
+            if (redirectUrl) {
+                window.location.assign(redirectUrl);
+            }
+
+
 
             if (response.status === 422) {
                 Object.entries(data.errors || {}).forEach(
@@ -144,12 +185,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             form.reset();
 
-            const successUrl = form.dataset.successUrl;
 
-            if (successUrl) {
-                window.location.assign(successUrl);
-                return;
-            }
 
             if (statusBox) {
                 statusBox.textContent =

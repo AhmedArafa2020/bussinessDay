@@ -85,16 +85,24 @@
                     </p>
                 @endif
             </div>
+            <form
+                class="rv rv-d1"
+                id="lead-form"
+                action="{{ route('leads.store') }}"
+                method="POST"
+                data-lead-form
+                data-endpoint="{{ route('leads.store') }}"
+                data-redirect="{{ route('thank-you') }}"
+                data-source="homepage"
+                novalidate
+            >
+                @csrf
 
-        <form
-            class="rv rv-d1"
-            id="lead-form"
-            action="{{ route('leads.store') }}"
-            method="POST"
-            data-success-url="{{ route('thank-you') }}"
-            novalidate
-        >
-            @csrf
+                <input
+                    type="hidden"
+                    name="source"
+                    value="homepage"
+                >
             @if (filled($homeEnquiry?->form_title))
                 <h3 style="margin-bottom:24px">
                     {{ $homeEnquiry->form_title }}
@@ -325,22 +333,22 @@
                     ></textarea>
                 </div>
 
-                <div
-                    class="hp-field"
-                    aria-hidden="true"
-                >
-                    <label for="lf-company-website">
-                        Company website
-                    </label>
+{{--                <div--}}
+{{--                    class="hp-field"--}}
+{{--                    aria-hidden="true"--}}
+{{--                >--}}
+{{--                    <label for="lf-company-website">--}}
+{{--                        Company website--}}
+{{--                    </label>--}}
 
-                    <input
-                        id="lf-company-website"
-                        name="company_website"
-                        type="text"
-                        tabindex="-1"
-                        autocomplete="off"
-                    >
-                </div>
+{{--                    <input--}}
+{{--                        id="lf-company-website"--}}
+{{--                        name="company_website"--}}
+{{--                        type="text"--}}
+{{--                        tabindex="-1"--}}
+{{--                        autocomplete="off"--}}
+{{--                    >--}}
+{{--                </div>--}}
 
             </div>
 

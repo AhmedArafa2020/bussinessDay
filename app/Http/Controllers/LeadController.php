@@ -8,8 +8,10 @@ use Illuminate\Http\JsonResponse;
 
 class LeadController extends Controller
 {
-    public function store(StoreLeadRequest $request): JsonResponse
-    {
+    public function store(
+        StoreLeadRequest $request
+    ): JsonResponse {
+
         $validated = $request->validated();
 
         $lead = Lead::create([
@@ -17,11 +19,15 @@ class LeadController extends Controller
             'phone' => $validated['phone'],
             'email' => $validated['email'],
             'interest' => $validated['interest'],
+
             'budget' => $validated['budget'] ?? null,
-            'contact_method' => $validated['contact_method'],
+
+            'contact_method' => $validated['contact_method']
+                ?? 'phone',
+
             'message' => $validated['message'] ?? null,
 
-            'source' => $validated['source'] ?? 'homepage',
+            'source' => $validated['source'],
             'status' => 'new',
 
             'ip_address' => $request->ip(),
@@ -32,6 +38,8 @@ class LeadController extends Controller
             'success' => true,
             'message' => 'Your request has been received successfully.',
             'lead_id' => $lead->id,
+            'redirect_url' => route('thank-you'),
         ], 201);
     }
+
 }
