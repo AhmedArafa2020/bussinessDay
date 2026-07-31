@@ -1,25 +1,13 @@
-# BEGIN LSCACHE
-# END LSCACHE
-# BEGIN NON_LSCACHE
-# END NON_LSCACHE
-# BEGIN WordPress
-# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
-# dynamically generated, and should only be modified via WordPress filters.
-# Any changes to the directives between these markers will be overwritten.
 <IfModule mod_rewrite.c>
     RewriteEngine On
 
+    # امنع إعادة التوجيه المزدوج لو الطلب داخل public بالفعل
     RewriteCond %{REQUEST_URI} !^/public/
+
+    # مرّر كل الطلبات إلى مجلد Laravel public
     RewriteRule ^(.*)$ public/$1 [L]
 </IfModule>
 
-# END WordPress
-
-# BEGIN LiteSpeed
-# The directives (lines) between "BEGIN LiteSpeed" and "END LiteSpeed" are
-# dynamically generated, and should only be modified via WordPress filters.
-# Any changes to the directives between these markers will be overwritten.
-<IfModule Litespeed>
-SetEnv noabort 1
+<IfModule LiteSpeed>
+    SetEnv noabort 1
 </IfModule>
-# END LiteSpeed
