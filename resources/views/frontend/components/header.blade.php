@@ -27,6 +27,12 @@
         <a href="{{ route('home') }}#story">
             The Project
         </a>
+        <a
+            href="{{ route('about') }}"
+            class="{{ request()->routeIs('about') ? 'active' : '' }}"
+        >
+            About Us
+        </a>
 
         <a href="{{ route('home') }}#location">
             Location

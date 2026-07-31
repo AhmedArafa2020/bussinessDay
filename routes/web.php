@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AboutController;
 use App\Http\Controllers\CampaignController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\JournalController;
@@ -34,6 +35,8 @@ Route::get(
     '/journal/{post}',
     [JournalController::class, 'show']
 )->name('journal.show');
+Route::get('/about', [AboutController::class, 'index'])
+    ->name('about');
 //Route::get('/server-check', function () {
 //    return response()->json([
 //        'php_version' => PHP_VERSION,
@@ -48,3 +51,6 @@ Route::get(
 //        'realpath_cache_ttl' => ini_get('realpath_cache_ttl'),
 //    ]);
 //});
+Route::get('/speed-view', function () {
+    return view('speed-test');
+});
