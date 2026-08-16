@@ -61,18 +61,19 @@ class HomeController extends Controller
             ->limit(3)
             ->get();
 
-        return view('frontend.home.index', [
-            'homeHero' => $homeHero,
-            'homeStory' => $homeStory,
-            'homeConcept' => $homeConcept,
-            'homeInterlude' => $homeInterlude,
-            'homeLocation' => $homeLocation,
-            'homeArchitecture' => $homeArchitecture,
-            'homeLifestyle' => $homeLifestyle,
-            'homeResidence' => $homeResidence,
-            'homeInvestment' => $homeInvestment,
-            'homeGallery' => $homeGallery,
-            'homeEnquiry' => $homeEnquiry,
-            'latestPosts' => $latestPosts,
-        ]);
+//        return view('frontend.home.index', [
+//            'homeHero' => $homeHero,
+//            'homeStory' => $homeStory,
+//            'homeConcept' => $homeConcept,
+//            'homeInterlude' => $homeInterlude,
+//            'homeLocation' => $homeLocation,
+//            'homeArchitecture' => $homeArchitecture,
+//            'homeLifestyle' => $homeLifestyle,
+//            'homeResidence' => $homeResidence,
+//            'homeInvestment' => $homeInvestment,
+//            'homeGallery' => $homeGallery,
+//            'homeEnquiry' => $homeEnquiry,
+//            'latestPosts' => $latestPosts,
+//        ]);
+        return view('frontend.home.new-index');
     }}

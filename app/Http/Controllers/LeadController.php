@@ -8,37 +8,45 @@ use Illuminate\Http\JsonResponse;
 
 class LeadController extends Controller
 {
-    public function store(
-        StoreLeadRequest $request
-    ): JsonResponse {
-
+    public function store(StoreLeadRequest $request): JsonResponse {
         $validated = $request->validated();
+
+        if (! empty($validated['company_website'])) {
+            return response()->json([
+                'success' => true,
+                'message' => 'Thank you. Your enquiry has been received.',
+            ]);
+        }
 
         $lead = Lead::create([
             'full_name' => $validated['full_name'],
-            'phone' => $validated['phone'],
             'email' => $validated['email'],
-            'interest' => $validated['interest'],
+            'phone' => $validated['phone'],
 
-            'budget' => $validated['budget'] ?? null,
-
-            'contact_method' => $validated['contact_method']
-                ?? 'phone',
+            'country' => $validated['country'],
+            'enquiry_type' => $validated['enquiry_type'],
 
             'message' => $validated['message'] ?? null,
 
-            'source' => $validated['source'],
+            'launch_list' => (bool) (
+                $validated['launch_list'] ?? false
+            ),
+
+            'consent_at' => now(),
+
+            'source' => $validated['source'] ?? 'homepage-new',
+
             'status' => 'new',
 
             'ip_address' => $request->ip(),
+
             'user_agent' => $request->userAgent(),
         ]);
 
         return response()->json([
             'success' => true,
-            'message' => 'Your request has been received successfully.',
+            'message' => 'Thank you. Your enquiry has been received.',
             'lead_id' => $lead->id,
-            'redirect_url' => route('thank-you'),
         ], 201);
     }
 

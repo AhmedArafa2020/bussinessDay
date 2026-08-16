@@ -32,51 +32,56 @@ class StoreLeadRequest extends FormRequest
                 'max:255',
             ],
 
-            'phone' => [
-                'required',
-                'string',
-                'max:50',
-            ],
-
             'email' => [
                 'required',
                 'email',
                 'max:255',
             ],
 
-            'interest' => [
+            'phone' => [
+                'required',
+                'string',
+                'max:100',
+            ],
+
+            'country' => [
+                'required',
+                'string',
+                'max:100',
+            ],
+
+            'enquiry_type' => [
                 'required',
                 'string',
                 'max:255',
             ],
 
-            'budget' => [
+            'message' => [
+                'nullable',
+                'string',
+                'max:5000',
+            ],
+
+            'launch_list' => [
+                'nullable',
+                'boolean',
+            ],
+
+            'consent' => [
+                'accepted',
+            ],
+
+            'company_website' => [
+                'nullable',
+                'string',
+                'max:255',
+            ],
+
+            'source' => [
                 'nullable',
                 'string',
                 'max:100',
             ],
-
-            'contact_method' => [
-                'required',
-                'in:phone,whatsapp,email',
-            ],
-
-            'message' => [
-                'nullable',
-                'string',
-                'max:3000',
-            ],
-
-            'source' => [
-                'required',
-                'in:homepage,campaign-short',
-            ],
-
-//            'company_website' => [
-//                'nullable',
-//                'string',
-//                'max:0',
-//            ],
         ];
     }
 
