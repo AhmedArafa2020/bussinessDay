@@ -1,0 +1,106 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://businessbaydevelopments.com/journal/new-administrative-capital-progress-report#article",
+      "mainEntityOfPage": "https://businessbaydevelopments.com/journal/new-administrative-capital-progress-report",
+      "url": "https://businessbaydevelopments.com/journal/new-administrative-capital-progress-report",
+      "headline": "The New Administrative Capital: What Is Actually Built and Operating",
+      "description": "A sourced, dated status report on Egypt's New Administrative Capital — what has relocated, who lives there, what connects it to Cairo, and where published figures disagree.",
+      "keywords": [
+        "New Administrative Capital progress",
+        "is the New Administrative Capital finished",
+        "New Administrative Capital population",
+        "New Administrative Capital infrastructure status",
+        "Egypt new capital latest",
+        "Business Bay Developments New Administrative Capital",
+        "hospitality investment New Capital",
+        "بيزنس باي للتطوير العقاري",
+        "بيزنس باي للتطوير العقاري العاصمة الإدارية الجديدة"
+      ],
+      "articleSection": "New Administrative Capital",
+      "inLanguage": "en",
+      "image": "https://businessbaydevelopments.com/og/journal-10.jpg",
+      "datePublished": "SET_ON_PUBLISH",
+      "dateModified": "SET_ON_PUBLISH",
+      "author": {
+        "@id": "https://businessbaydevelopments.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://businessbaydevelopments.com/#organization"
+      },
+      "isPartOf": {
+        "@id": "https://businessbaydevelopments.com/journal#blog"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://businessbaydevelopments.com/journal/new-administrative-capital-progress-report#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is the New Administrative Capital finished?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Government functions have relocated and Phase 1 is substantially developed, but the city is in a long build-out. Full completion is planned across three phases."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many people live in the New Administrative Capital?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reported figures range from roughly 1,500 families in early 2024 to more than 30,000 residents in more recent ACUD statements, with 50,000–60,000 projected. Definitions vary between sources."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Has the Egyptian government actually moved to the new capital?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Ministries have relocated to the Government District and parliament sits in the new capital."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How far is the New Administrative Capital from Cairo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Approximately 45 kilometres east of Cairo, connected by road and rail links."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How big will the New Administrative Capital be?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Planned at roughly 700–715 km² across three phases, with Phase 1 at about 168 km² and a design capacity of 6–6.5 million residents at full build-out."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://businessbaydevelopments.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Journal",
+          "item": "https://businessbaydevelopments.com/journal"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "The New Administrative Capital: What Is Actually Built and Operating"
+        }
+      ]
+    }
+  ]
+}

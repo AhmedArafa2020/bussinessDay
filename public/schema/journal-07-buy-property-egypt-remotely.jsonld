@@ -1,0 +1,106 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://businessbaydevelopments.com/journal/buy-property-egypt-remotely#article",
+      "mainEntityOfPage": "https://businessbaydevelopments.com/journal/buy-property-egypt-remotely",
+      "url": "https://businessbaydevelopments.com/journal/buy-property-egypt-remotely",
+      "headline": "How to Buy Property in Egypt Without Flying to Cairo",
+      "description": "The full remote purchase process for overseas buyers — power of attorney, documentation, payment sequence and handover — and where it usually goes wrong.",
+      "keywords": [
+        "buy property in Egypt remotely",
+        "power of attorney Egypt property purchase",
+        "buying off-plan Egypt from abroad",
+        "Egypt property purchase process step by step",
+        "remote property purchase Egypt",
+        "Business Bay Developments overseas buyers",
+        "buying Egypt property from abroad developer",
+        "بيزنس باي للتطوير العقاري",
+        "بيزنس باي للتطوير العقاري العاصمة الإدارية الجديدة"
+      ],
+      "articleSection": "International Investor Perspectives",
+      "inLanguage": "en",
+      "image": "https://businessbaydevelopments.com/og/journal-07.jpg",
+      "datePublished": "SET_ON_PUBLISH",
+      "dateModified": "SET_ON_PUBLISH",
+      "author": {
+        "@id": "https://businessbaydevelopments.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://businessbaydevelopments.com/#organization"
+      },
+      "isPartOf": {
+        "@id": "https://businessbaydevelopments.com/journal#blog"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://businessbaydevelopments.com/journal/buy-property-egypt-remotely#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can I buy property in Egypt without going there?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Remote purchase through a properly executed power of attorney is routine for expatriate and foreign buyers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a power of attorney for Egyptian property purchase?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A legal instrument authorising a named person in Egypt to act for you. It should be a special power of attorney, limited to the specific transaction, with disposal powers excluded."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where do I sign a power of attorney for Egypt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Usually at an Egyptian consulate in your country of residence, or notarised locally and legalised through the appropriate chain."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who should I appoint as my attorney in Egypt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Your own independent lawyer is generally the safest choice. Never appoint anyone connected to the seller."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I pay a reservation fee before legal checks?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Complete verification of the developer, the land title and the unit's registrability before any money moves. Reservation fees are often non-refundable."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://businessbaydevelopments.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Journal",
+          "item": "https://businessbaydevelopments.com/journal"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "How to Buy Property in Egypt Without Flying to Cairo"
+        }
+      ]
+    }
+  ]
+}

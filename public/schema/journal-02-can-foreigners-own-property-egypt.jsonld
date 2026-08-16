@@ -1,0 +1,106 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://businessbaydevelopments.com/journal/can-foreigners-own-property-egypt#article",
+      "mainEntityOfPage": "https://businessbaydevelopments.com/journal/can-foreigners-own-property-egypt",
+      "url": "https://businessbaydevelopments.com/journal/can-foreigners-own-property-egypt",
+      "headline": "Can Foreigners Own Property in Egypt? The Rules, the Limits, and the Five-Year Restriction",
+      "description": "Foreigners can own property in Egypt, but the law sets limits on how many units, how large, and — critically — when you are allowed to sell. Here is what Law 230 of 1996 actually says.",
+      "keywords": [
+        "can foreigners own property in Egypt",
+        "foreign property ownership Egypt law",
+        "Law 230 1996 Egypt",
+        "property ownership rules for expats Egypt",
+        "how many properties can a foreigner own in Egypt",
+        "Business Bay Developments foreign investors",
+        "foreign property ownership Egypt developer",
+        "بيزنس باي للتطوير العقاري",
+        "بيزنس باي للتطوير العقاري العاصمة الإدارية الجديدة"
+      ],
+      "articleSection": "International Investor Perspectives",
+      "inLanguage": "en",
+      "image": "https://businessbaydevelopments.com/og/journal-02.jpg",
+      "datePublished": "SET_ON_PUBLISH",
+      "dateModified": "SET_ON_PUBLISH",
+      "author": {
+        "@id": "https://businessbaydevelopments.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://businessbaydevelopments.com/#organization"
+      },
+      "isPartOf": {
+        "@id": "https://businessbaydevelopments.com/journal#blog"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://businessbaydevelopments.com/journal/can-foreigners-own-property-egypt#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can foreigners own property in Egypt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Law No. 230 of 1996 permits non-Egyptians to own residential property, subject to limits on the number of units, their size, and when they can be sold."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many properties can a foreigner own in Egypt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Two, as a baseline, each up to 4,000 square metres. Decrees issued in 2024–2025 eased this ceiling for buyers remitting foreign currency from abroad."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a foreigner sell property in Egypt immediately?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Generally no. A five-year restriction runs from the date of registration, and earlier disposal requires a Prime Ministerial exemption."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can foreigners buy land in Egypt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Residential land, yes, subject to the same limits — and construction must begin within five years of registration. Agricultural land is prohibited; desert land and Sinai are restricted."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do foreigners pay more tax when buying in Egypt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. There is no nationality surcharge. See our guide to the cost of buying and owning property in Egypt."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://businessbaydevelopments.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Journal",
+          "item": "https://businessbaydevelopments.com/journal"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Can Foreigners Own Property in Egypt? The Rules, the Limits, and the F"
+        }
+      ]
+    }
+  ]
+}

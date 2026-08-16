@@ -1,0 +1,106 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://businessbaydevelopments.com/journal/property-title-registration-egypt-green-contract#article",
+      "mainEntityOfPage": "https://businessbaydevelopments.com/journal/property-title-registration-egypt-green-contract",
+      "url": "https://businessbaydevelopments.com/journal/property-title-registration-egypt-green-contract",
+      "headline": "Green Contract or Nothing: Understanding Property Title Registration in Egypt",
+      "description": "A sales contract and a registered title are not the same thing in Egypt, and the difference decides whether you can get residency, sell, or borrow against your property.",
+      "keywords": [
+        "property title registration Egypt",
+        "green contract Egypt property",
+        "Egypt real estate registry",
+        "registered title deed Egypt",
+        "is my Egyptian property registered",
+        "Business Bay Developments land New Administrative Capital",
+        "ACUD NUCA land documentation",
+        "بيزنس باي للتطوير العقاري",
+        "بيزنس باي للتطوير العقاري العاصمة الإدارية الجديدة"
+      ],
+      "articleSection": "International Investor Perspectives",
+      "inLanguage": "en",
+      "image": "https://businessbaydevelopments.com/og/journal-04.jpg",
+      "datePublished": "SET_ON_PUBLISH",
+      "dateModified": "SET_ON_PUBLISH",
+      "author": {
+        "@id": "https://businessbaydevelopments.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://businessbaydevelopments.com/#organization"
+      },
+      "isPartOf": {
+        "@id": "https://businessbaydevelopments.com/journal#blog"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://businessbaydevelopments.com/journal/property-title-registration-egypt-green-contract#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a green contract in Egypt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is the colloquial name for property title formally registered in your name at the Egyptian real estate registry, as distinct from a private sales contract."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is a sales contract enough to own property in Egypt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It binds the parties, but it does not make you the registered owner in the eyes of the state. It is generally not sufficient for a residency application, and it weakens your position on resale and inheritance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does it cost to register property in Egypt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Registration fees are commonly quoted at 1–3% of value, with some sources indicating a cap for certain residential property. Confirm the current basis for your specific property."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a registered title for Egyptian residency?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Generally yes. Applications normally require a registry certificate confirming ownership."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I register a property I already bought?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Often yes, but it depends on whether the chain of title behind the unit is clean. Take advice from an Egyptian property lawyer on your specific case."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://businessbaydevelopments.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Journal",
+          "item": "https://businessbaydevelopments.com/journal"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Green Contract or Nothing: Understanding Property Title Registration i"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://businessbaydevelopments.com/journal/cost-of-buying-owning-property-egypt#article",
+      "mainEntityOfPage": "https://businessbaydevelopments.com/journal/cost-of-buying-owning-property-egypt",
+      "url": "https://businessbaydevelopments.com/journal/cost-of-buying-owning-property-egypt",
+      "headline": "What Does It Actually Cost to Buy and Own Property in Egypt?",
+      "description": "Purchase price is not total cost. Registration fees, annual property tax, VAT, service charges and the 2.5% disposal tax on sale, explained for foreign buyers.",
+      "keywords": [
+        "cost of buying property in Egypt",
+        "Egypt property taxes for foreigners",
+        "registration fees Egypt real estate",
+        "service charges Egypt property",
+        "hidden costs buying property Egypt",
+        "Business Bay Developments professionally managed real estate",
+        "hospitality investment Egypt costs",
+        "بيزنس باي للتطوير العقاري",
+        "بيزنس باي للتطوير العقاري العاصمة الإدارية الجديدة"
+      ],
+      "articleSection": "Real-Estate Investment Principles",
+      "inLanguage": "en",
+      "image": "https://businessbaydevelopments.com/og/journal-06.jpg",
+      "datePublished": "SET_ON_PUBLISH",
+      "dateModified": "SET_ON_PUBLISH",
+      "author": {
+        "@id": "https://businessbaydevelopments.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://businessbaydevelopments.com/#organization"
+      },
+      "isPartOf": {
+        "@id": "https://businessbaydevelopments.com/journal#blog"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://businessbaydevelopments.com/journal/cost-of-buying-owning-property-egypt#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does it cost to buy property in Egypt beyond the price?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Commonly estimated at 4–6% of value in transaction costs, covering registration fees, legal fees and associated charges. Confirm the exact basis for your property."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do foreigners pay higher property taxes in Egypt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. There is no nationality surcharge; the same rates apply to Egyptians and foreign nationals."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the property transfer tax in Egypt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A 2.5% real estate disposal tax on gross sale value. Under Egyptian law it is the seller's obligation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there capital gains tax on property in Egypt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Several sources state there is no separate capital gains tax for individuals selling residential property, the 2.5% disposal tax applying instead. Confirm the characterisation with advisers in both Egypt and your home country."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is rental income from Egyptian property taxable?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, at progressive rates commonly reported between 10% and 27.5%. Your country of residence may tax it too, subject to any double taxation treaty."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://businessbaydevelopments.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Journal",
+          "item": "https://businessbaydevelopments.com/journal"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "What Does It Actually Cost to Buy and Own Property in Egypt?"
+        }
+      ]
+    }
+  ]
+}

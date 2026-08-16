@@ -1,0 +1,106 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://businessbaydevelopments.com/journal/egypt-residency-property-investment#article",
+      "mainEntityOfPage": "https://businessbaydevelopments.com/journal/egypt-residency-property-investment",
+      "url": "https://businessbaydevelopments.com/journal/egypt-residency-property-investment",
+      "headline": "Does Buying Property in Egypt Get You Residency? What the Rules Say",
+      "description": "Property purchase can qualify a foreign buyer for Egyptian residency. The thresholds are widely misreported. Here is what we could verify, and what we could not.",
+      "keywords": [
+        "Egypt residency by property investment",
+        "Egypt golden visa property",
+        "residency permit Egypt real estate",
+        "buy property get residency Egypt",
+        "Egypt investor visa requirements",
+        "Business Bay Developments international investors",
+        "Egypt property residency developer support",
+        "بيزنس باي للتطوير العقاري",
+        "بيزنس باي للتطوير العقاري العاصمة الإدارية الجديدة"
+      ],
+      "articleSection": "International Investor Perspectives",
+      "inLanguage": "en",
+      "image": "https://businessbaydevelopments.com/og/journal-03.jpg",
+      "datePublished": "SET_ON_PUBLISH",
+      "dateModified": "SET_ON_PUBLISH",
+      "author": {
+        "@id": "https://businessbaydevelopments.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://businessbaydevelopments.com/#organization"
+      },
+      "isPartOf": {
+        "@id": "https://businessbaydevelopments.com/journal#blog"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://businessbaydevelopments.com/journal/egypt-residency-property-investment#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can you get residency in Egypt by buying property?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Egypt operates a residence-by-investment framework in which qualifying property purchase leads to a renewable residence permit, with duration tied to investment value."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much do you need to invest for Egyptian residency?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Published sources conflict, quoting minimums between $50,000 and $200,000 for different permit lengths. Confirm the current threshold with Egyptian counsel before transferring funds."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the property have to be registered for residency in Egypt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Generally yes. Applications normally require registered title at the real estate registry, not a developer sales contract."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Egyptian residency by investment lead to citizenship?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not directly. Egypt operates a separate citizenship-by-investment route with different and substantially higher requirements."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can my family be included in an Egyptian residency application?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Usually yes — spouse and dependent children are typically covered under the primary investment. Confirm current dependant definitions at the time of application."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://businessbaydevelopments.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Journal",
+          "item": "https://businessbaydevelopments.com/journal"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Does Buying Property in Egypt Get You Residency? What the Rules Say"
+        }
+      ]
+    }
+  ]
+}

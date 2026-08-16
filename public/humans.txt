@@ -1,0 +1,10 @@
+/* TEAM */
+  Business Bay Developments
+  Site: https://businessbaydevelopments.com/
+  Location: Cairo, Egypt
+
+/* SITE */
+  Language: English
+  Standards: HTML5, CSS3, Schema.org JSON-LD
+  Components: GSAP, ScrollTrigger
+  Typography: Playfair Display, Inter, Lora

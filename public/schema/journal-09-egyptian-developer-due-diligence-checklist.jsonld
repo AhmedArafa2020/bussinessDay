@@ -1,0 +1,107 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://businessbaydevelopments.com/journal/egyptian-developer-due-diligence-checklist#article",
+      "mainEntityOfPage": "https://businessbaydevelopments.com/journal/egyptian-developer-due-diligence-checklist",
+      "url": "https://businessbaydevelopments.com/journal/egyptian-developer-due-diligence-checklist",
+      "headline": "How to Check an Egyptian Developer Before You Buy: A Due Diligence Checklist",
+      "description": "Twelve questions to ask any Egyptian developer before signing — on licensing, land title, delivery record, registration, payment protection and contract terms.",
+      "keywords": [
+        "how to check an Egyptian property developer",
+        "Egypt developer due diligence",
+        "off-plan risk Egypt",
+        "questions to ask a property developer Egypt",
+        "is my Egyptian developer reliable",
+        "Business Bay Developments leadership experience",
+        "new-generation developer Egypt",
+        "reliable developer New Administrative Capital",
+        "بيزنس باي للتطوير العقاري",
+        "بيزنس باي للتطوير العقاري العاصمة الإدارية الجديدة"
+      ],
+      "articleSection": "Real-Estate Investment Principles",
+      "inLanguage": "en",
+      "image": "https://businessbaydevelopments.com/og/journal-09.jpg",
+      "datePublished": "SET_ON_PUBLISH",
+      "dateModified": "SET_ON_PUBLISH",
+      "author": {
+        "@id": "https://businessbaydevelopments.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://businessbaydevelopments.com/#organization"
+      },
+      "isPartOf": {
+        "@id": "https://businessbaydevelopments.com/journal#blog"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://businessbaydevelopments.com/journal/egyptian-developer-due-diligence-checklist#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I check if an Egyptian developer is legitimate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Verify commercial registration and tax card at the registry, confirm registered land title, check permits for the specific scheme, and run registry and litigation searches — all through your own lawyer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the most important question to ask a property developer in Egypt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Whether they hold registered title to the land. Without it, they cannot deliver registered title to you."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is buying off-plan in Egypt risky?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It carries delivery risk that a completed property does not. That risk is managed by developer selection, milestone-linked payment and contract terms that provide a remedy for delay."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I buy from a new developer in Egypt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Possibly, if the founders' track record is verifiable, the land title is clean and the contract protects you. The burden of proof sits with the new company."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a developer guarantee rental returns in Egypt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No developer can guarantee returns. Treat any guaranteed-return claim as a reason for greater scrutiny, not less."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://businessbaydevelopments.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Journal",
+          "item": "https://businessbaydevelopments.com/journal"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "How to Check an Egyptian Developer Before You Buy: A Due Diligence Che"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://businessbaydevelopments.com/#organization",
+      "name": "Business Bay Developments",
+      "alternateName": [
+        "Business Bay",
+        "بيزنس باي للتطوير العقاري"
+      ],
+      "url": "https://businessbaydevelopments.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://businessbaydevelopments.com/icons/logo-512.png",
+        "width": 512,
+        "height": 512
+      },
+      "image": "https://businessbaydevelopments.com/og/og-image.jpg",
+      "sameAs": [
+        "https://www.instagram.com/businessbaydevelopments/",
+        "https://www.linkedin.com/company/business-bay-developments",
+        "https://www.facebook.com/Businessbaydevelopments"
+      ],
+      "description": "Business Bay Developments is an Egyptian real estate developer creating hospitality-led residential, commercial and mixed-use destinations in New Cairo and the New Administrative Capital.",
+      "disambiguatingDescription": "A new company, built on a proven legacy. Beyond buildings, Business Bay Developments shapes destinations.",
+      "slogan": "Global experience. One development vision.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Building B 13, The District Vill",
+        "addressLocality": "Sheraton Al Matar, Cairo",
+        "addressRegion": "Cairo Governorate",
+        "addressCountry": "EG"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+20-11-52859666",
+          "contactType": "sales",
+          "areaServed": [
+            "EG",
+            "AE",
+            "SA",
+            "KW",
+            "GB",
+            "US"
+          ],
+          "availableLanguage": [
+            "en",
+            "ar"
+          ]
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "16924",
+          "contactType": "customer service",
+          "areaServed": "EG",
+          "availableLanguage": [
+            "en",
+            "ar"
+          ]
+        }
+      ],
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "Egypt"
+        },
+        {
+          "@type": "City",
+          "name": "Cairo"
+        },
+        {
+          "@type": "Place",
+          "name": "New Administrative Capital"
+        },
+        {
+          "@type": "Place",
+          "name": "New Cairo"
+        }
+      ],
+      "knowsAbout": [
+        "Real estate development",
+        "Hospitality-led development",
+        "Luxury residential development",
+        "Mixed-use development",
+        "Commercial and retail development",
+        "New Administrative Capital, Egypt",
+        "Foreign property ownership in Egypt",
+        "Real estate investment in Egypt"
+      ],
+      "founder": [
+        {
+          "@id": "https://businessbaydevelopments.com/leadership/amir-sami#person"
+        },
+        {
+          "@id": "https://businessbaydevelopments.com/leadership/talaat-gawargious#person"
+        }
+      ],
+      "member": [
+        {
+          "@id": "https://businessbaydevelopments.com/leadership/emad-el-sherbiny#person"
+        },
+        {
+          "@id": "https://businessbaydevelopments.com/leadership/wael-shawkat#person"
+        }
+      ],
+      "_TODO": "Add legalName, identifier (commercial registration) and foundingDate once legal confirms — Fact Control Register row 34. Delete this key before publishing."
+    },
+    {
+      "@type": "Person",
+      "@id": "https://businessbaydevelopments.com/leadership/amir-sami#person",
+      "name": "Amir Sami",
+      "jobTitle": "Co-Founder & Chief Executive Officer",
+      "url": "https://businessbaydevelopments.com/leadership/amir-sami",
+      "worksFor": {
+        "@id": "https://businessbaydevelopments.com/#organization"
+      },
+      "knowsAbout": [
+        "Real estate development",
+        "Commercial strategy",
+        "Customer experience"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://businessbaydevelopments.com/leadership/talaat-gawargious#person",
+      "name": "Talaat Gawargious",
+      "jobTitle": "Co-Founder & Board Member",
+      "url": "https://businessbaydevelopments.com/leadership/talaat-gawargious",
+      "worksFor": {
+        "@id": "https://businessbaydevelopments.com/#organization"
+      },
+      "knowsAbout": [
+        "Construction",
+        "Development",
+        "Engineering execution"
+      ],
+      "honorificPrefix": "Eng."
+    },
+    {
+      "@type": "Person",
+      "@id": "https://businessbaydevelopments.com/leadership/emad-el-sherbiny#person",
+      "name": "Emad El Sherbiny",
+      "jobTitle": "Engineering Partner",
+      "url": "https://businessbaydevelopments.com/leadership/emad-el-sherbiny",
+      "worksFor": {
+        "@id": "https://businessbaydevelopments.com/#organization"
+      },
+      "knowsAbout": [
+        "High-rise engineering",
+        "Hospitality engineering",
+        "Mixed-use development"
+      ],
+      "honorificPrefix": "Eng."
+    },
+    {
+      "@type": "Person",
+      "@id": "https://businessbaydevelopments.com/leadership/wael-shawkat#person",
+      "name": "Wael Shawkat",
+      "jobTitle": "Commercial Partner",
+      "url": "https://businessbaydevelopments.com/leadership/wael-shawkat",
+      "worksFor": {
+        "@id": "https://businessbaydevelopments.com/#organization"
+      },
+      "knowsAbout": [
+        "Commercial strategy",
+        "Retail leasing",
+        "Destination management"
+      ],
+      "honorificPrefix": "Eng."
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://businessbaydevelopments.com/journal#blog",
+      "url": "https://businessbaydevelopments.com/journal",
+      "name": "Business Bay Developments Journal",
+      "inLanguage": "en",
+      "description": "Sourced, dated guidance on Egyptian real estate for international buyers.",
+      "publisher": {
+        "@id": "https://businessbaydevelopments.com/#organization"
+      },
+      "blogPost": [
+        {
+          "@id": "https://businessbaydevelopments.com/journal/international-buyers-guide-new-administrative-capital#article"
+        },
+        {
+          "@id": "https://businessbaydevelopments.com/journal/can-foreigners-own-property-egypt#article"
+        },
+        {
+          "@id": "https://businessbaydevelopments.com/journal/egypt-residency-property-investment#article"
+        },
+        {
+          "@id": "https://businessbaydevelopments.com/journal/property-title-registration-egypt-green-contract#article"
+        },
+        {
+          "@id": "https://businessbaydevelopments.com/journal/transferring-money-egypt-property-repatriation#article"
+        },
+        {
+          "@id": "https://businessbaydevelopments.com/journal/cost-of-buying-owning-property-egypt#article"
+        },
+        {
+          "@id": "https://businessbaydevelopments.com/journal/buy-property-egypt-remotely#article"
+        },
+        {
+          "@id": "https://businessbaydevelopments.com/journal/new-administrative-capital-vs-new-cairo-comparison#article"
+        },
+        {
+          "@id": "https://businessbaydevelopments.com/journal/egyptian-developer-due-diligence-checklist#article"
+        },
+        {
+          "@id": "https://businessbaydevelopments.com/journal/new-administrative-capital-progress-report#article"
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://businessbaydevelopments.com/#website",
+      "url": "https://businessbaydevelopments.com/",
+      "name": "Business Bay Developments",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://businessbaydevelopments.com/#organization"
+      }
+    }
+  ]
+}

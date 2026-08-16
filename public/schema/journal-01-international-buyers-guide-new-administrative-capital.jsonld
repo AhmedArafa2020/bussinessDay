@@ -1,0 +1,107 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://businessbaydevelopments.com/journal/international-buyers-guide-new-administrative-capital#article",
+      "mainEntityOfPage": "https://businessbaydevelopments.com/journal/international-buyers-guide-new-administrative-capital",
+      "url": "https://businessbaydevelopments.com/journal/international-buyers-guide-new-administrative-capital",
+      "headline": "Buying Property in Egypt's New Administrative Capital: A Guide for International Buyers",
+      "description": "Ownership law, residency, title, currency, cost and process — the complete picture for a foreign buyer considering Egypt's New Administrative Capital.",
+      "keywords": [
+        "buying property in New Administrative Capital as a foreigner",
+        "New Administrative Capital real estate for foreigners",
+        "invest in Egypt real estate from abroad",
+        "foreign property buyer Egypt guide",
+        "NAC property investment",
+        "Business Bay Developments New Administrative Capital",
+        "real estate developer New Capital",
+        "international investors Egypt",
+        "بيزنس باي للتطوير العقاري",
+        "بيزنس باي للتطوير العقاري العاصمة الإدارية الجديدة"
+      ],
+      "articleSection": "International Investor Perspectives",
+      "inLanguage": "en",
+      "image": "https://businessbaydevelopments.com/og/journal-01.jpg",
+      "datePublished": "SET_ON_PUBLISH",
+      "dateModified": "SET_ON_PUBLISH",
+      "author": {
+        "@id": "https://businessbaydevelopments.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://businessbaydevelopments.com/#organization"
+      },
+      "isPartOf": {
+        "@id": "https://businessbaydevelopments.com/journal#blog"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://businessbaydevelopments.com/journal/international-buyers-guide-new-administrative-capital#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can foreigners buy property in Egypt's New Administrative Capital?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Law 230/1996 permits non-Egyptians to own residential property, subject to limits on number, size and resale timing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long must a foreigner hold property in Egypt before selling?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Generally five years from registration, unless a Prime Ministerial exemption is granted."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you need to visit Egypt to buy property?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Purchase can be completed remotely through a properly drafted power of attorney."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the New Administrative Capital a good investment?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "That depends on your horizon and risk tolerance. The institutional anchor is real and residential occupancy is early. We do not make return projections."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the biggest mistake international buyers make in Egypt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Treating registration as an administrative detail to resolve later, rather than as the condition that determines residency, resale and inheritance."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://businessbaydevelopments.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Journal",
+          "item": "https://businessbaydevelopments.com/journal"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Buying Property in Egypt's New Administrative Capital: A Guide for Int"
+        }
+      ]
+    }
+  ]
+}
