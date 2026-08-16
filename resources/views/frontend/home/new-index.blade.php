@@ -503,6 +503,28 @@
         .counter{font-variant-numeric:tabular-nums}
         [data-parallax]{will-change:transform}
         @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+        .nav__links.is-open{
+            display:flex;
+            position:absolute;
+            top:78px;
+            left:0;
+            right:0;
+            flex-direction:column;
+            align-items:flex-start;
+            gap:0;
+            background:rgba(14,14,16,.98);
+            padding:20px var(--gut) 28px;
+            border-top:1px solid rgba(245,241,232,.08);
+            border-bottom:1px solid rgba(245,241,232,.08);
+            z-index:100;
+        }
+
+        .nav__links.is-open a{
+            width:100%;
+            padding:14px 0;
+            border-bottom:1px solid rgba(245,241,232,.08);
+        }
     </style>
 </head>
 <body>
@@ -990,6 +1012,30 @@
             }, {passive:true});
             moveDot();
         }
+        /* ---------- mobile menu ---------- */
+        var burger = document.querySelector(".burger");
+        var navLinks = document.querySelector(".nav__links");
+
+        if (burger && navLinks) {
+            burger.addEventListener("click", function () {
+                var isOpen = burger.getAttribute("aria-expanded") === "true";
+
+                burger.setAttribute(
+                    "aria-expanded",
+                    isOpen ? "false" : "true"
+                );
+
+                navLinks.classList.toggle("is-open", !isOpen);
+            });
+
+            navLinks.querySelectorAll("a").forEach(function(link){
+                link.addEventListener("click", function(){
+                    burger.setAttribute("aria-expanded", "false");
+                    navLinks.classList.remove("is-open");
+                });
+            });
+        }
+
 
         /* ---------- lead capture form ---------- */
         var form = document.getElementById("enquiryForm");
